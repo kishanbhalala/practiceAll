@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(62, 62, 62);
+}
+
+.title {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    /* background: linear-gradient(to right, #fc294b 30%, #913596 65%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.col {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    background: linear-gradient(45deg, grey, black);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}

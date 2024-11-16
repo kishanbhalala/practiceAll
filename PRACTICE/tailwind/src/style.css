@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .btn {
+        @apply bg-gray-500 text-gray-800 px-3 py-2 rounded-md hover:text-white hover:border-black hover:bg-slate-500 active:bg-slate-800 focus:outline-gray-900;
+    }
+}   

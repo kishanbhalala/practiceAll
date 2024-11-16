@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .btn {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        button {
+            margin-bottom: 20px;
+        }
+
+        #chessboard {
+            display: grid;
+            grid-template-columns: repeat(5, 50px);
+            grid-template-rows: repeat(5, 50px);
+        }
+
+        .cell {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="btn">
+        <div>
+            <button onclick="moveLeft()">&#x2190;</button>
+            <button onclick="moveRight()">&#x2192;</button>
+            <button onclick="moveUp()">&#x2191;</button>
+            <button onclick="moveDown()">&#x2193;</button>
+            <button onclick="moveLeftUp()">&#x2196;</button>
+            <button onclick="moveRightUp()">&#x2197;</button>
+            <button onclick="moveRightDown()">&#x2198;</button>
+            <button onclick="moveLeftDown()">&#x2199;</button>
+            <div id="chessboard"></div>
+        </div>
+    </div>
+
+
+    <script src="./demo.js"></script>
+</body>
+
+</html>

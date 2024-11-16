@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply inline-block rounded-md bg-yellow-600 hover:bg-yellow-600/70 duration-200 py-2 px-6 text-white
+    }
+    .btn-about {
+        @apply rounded-md my-4 border-2 border-yellow-600 hover:bg-yellow-600/70 hover:text-black duration-500 py-2 px-6 text-yellow-600 tracking-wider;
+      }
+}

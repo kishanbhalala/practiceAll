@@ -1,0 +1,22 @@
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    li{
+        list-style: none; 
+        margin-right: 50px; 
+    }
+}
+button{
+    background-color: $back-color;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: $text-color;
+}

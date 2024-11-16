@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>microsoft website responsive</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div>
+        <div class="navbar container mx-auto flex justify-between item-center p-4">
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block cursor-pointer md:hidden">
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                </div>
+                <div class="serach md:hidden mx-3"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+
+            <div class="logo text-center flex md:order-1">
+                <div>
+                    <img class="w-32 flex justify-center mr-8" src="./assets/Microsoft-logo.jpg" alt="">
+                </div>
+                <div
+                    class="features absolute space-x-7 items-center w-fit md:static md:w-auto bg-gray-300 md:bg-white inset-0 md:flex md:mx-4 md:space-x- -translate-x-96 md:translate-x-0">
+                    <div class="fitem hover:underline">Microsoft 365</div>
+                    <div class="fitem hover:underline">Teams</div>
+                    <div class="fitem hover:underline">Copilot</div>
+                    <div class="fitem hover:underline">Windows</div>
+                    <div class="fitem hover:underline">Surface</div>
+                    <div class="fitem hover:underline">Xbox</div>
+                    <div class="fitem hover:underline">Support</div>
+                </div>
+            </div>
+            <div class="cart text-center md:order-3 flex items-center">
+                <div class="search hidden md:block"><i class="fa-solid fa-magnifying-glass mr-3"></i></div>
+                <div><i class="fa-solid fa-cart-shopping text-2xl mr-3"></i></div>
+                <div><i class="fa-solid fa-user text-2xl"></i></div>
+            </div>
+        </div>
+
+        <div class="slider flex flex-col-reverse md:flex-row bg-white shadow-2xl">
+            <div class="slider  flex flex-col md:justify-center  md:items-baseline px-10 py-10 md:bg-[#8BA0BD]">
+                <h1 class="text-black font-semibold text-2xl md:text-4xl mb-5">AI for everything you do</h1>
+                <p class=" md:text-left mb-5">Explore what’s possible with Microsoft Copilot—available
+                    to anyone, anywhere, on any device.</p>
+                <button class="bg-[#0067B8] text-white px-3 w-fit py-1">Download the Copilot app</button>
+            </div>
+            <div>
+                <img class="h-full" src="https://cdn.mos.cms.futurecdn.net/uhseyxMQCgDqUWywtAakR8-1200-80.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="promo flex flex-col text-center md:justify-center md:space-x-10 md:my-10 md:flex-row xl:space-x-52">
+            <div class="item1 my-7">
+                <i class="fa-brands fa-microsoft text-4xl"></i>
+                <h1 class="text-blue-600 font-semibold underline cursor-pointer">Choose your Microsoft 365</h1>
+            </div>
+            <div class="item2 my-7">
+                <i class="fa-solid fa-volleyball text-4xl"></i>
+                <h1 class="text-blue-600 font-semibold underline cursor-pointer">Shop Xbox games and consoles</h1>
+            </div>
+
+            <div class="item3 my-7">
+                <i class="fa-brands fa-microsoft text-4xl"></i>
+                <h1 class="text-blue-600 font-semibold underline cursor-pointer">Get Windows 11</h1>
+            </div>
+            <div class="item4 my-7">
+                <i class="fa-solid fa-tablet text-4xl"></i>
+                <h1 class="text-blue-600 font-semibold underline cursor-pointer">Explore Surface devices</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

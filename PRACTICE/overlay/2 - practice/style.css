@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Basier Square';
+}
+body{
+    margin: 0;
+}
+
+/* Css Overlay Method */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    position: absolute;
+}
+
+.mainbox{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 1s ease-in;
+    
+}
+
+.text{
+    height: inherit;
+    width: inherit;
+    color:white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    /* z-index: 3; */
+    transition: 1s ease-in;
+}
+
+.mainbox:hover .overlay{
+    opacity: 0.5;
+}
+.mainbox:hover .text{
+    opacity: 1;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+}
+
+.box:hover{
+    height:300px;
+    width: 300px;
+    transition-duration: 1s;
+    transition-property: background-color;
+    background-color: red;
+}

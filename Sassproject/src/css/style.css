@@ -1,0 +1,74 @@
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+button {
+  background-color: rgb(23, 170, 232);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  color: white;
+}
+
+.second-part {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-part h1 {
+  font-size: 50px;
+  margin: 100px 0 10px;
+}
+.second-part span {
+  font-size: 50px;
+  color: rgb(23, 170, 232);
+}
+.second-part p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+
+.sec-img img {
+  height: 500px;
+}
+
+.third-part {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.four-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.four-part img {
+  height: 40px;
+  margin-top: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0 100px;
+}/*# sourceMappingURL=style.css.map */

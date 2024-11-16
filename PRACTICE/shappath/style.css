@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+}
+
+.triangle{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    /* clip-path: polygon(50% 0%,90% 20%,100% 60%,75% 100%,25% 100%,0% 60%,10% 20%); */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-image: url(./28263372196_461876a445_o.jpg);
+    background-size: cover;
+}
+
+.pentagon{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.nonagon{
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}

@@ -1,0 +1,38 @@
+  body{
+    margin-left: 45%;
+    margin-top: 10%;
+  }  
+div {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: rotate 0.1s linear infinite;
+    animation-play-state: running;
+}
+div:hover {  
+    background: blue;
+    animation-play-state: paused;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+/* @keyframes move {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 500px;
+    }
+} */

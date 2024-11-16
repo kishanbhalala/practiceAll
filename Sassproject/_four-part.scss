@@ -1,0 +1,12 @@
+.four-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+     img{
+        height: $size;
+        margin-top: 50px;
+    }
+}

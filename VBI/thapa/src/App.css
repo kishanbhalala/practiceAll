@@ -1,0 +1,24 @@
+.btnStyle {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 6px;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.active{
+    opacity: 1;
+}
+
+.checkStyle{
+    font-size: 1rem;
+    color: white;
+}

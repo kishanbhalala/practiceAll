@@ -1,0 +1,174 @@
+/* 1 :- loader*/
+
+/* .loader {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px dotted transparent;
+    border-top-color: rgba(0, 0, 0, .5);
+    animation: rotate 1.5s ease infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* 2 :- button animation  */
+body{
+    background: black;
+    height: 95vh;
+    width: 95vw;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    height: 60px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    overflow: hidden;
+}
+
+.box span{
+    position: absolute;
+}
+
+
+.box span:nth-child(1){
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent,aqua);
+    top: 0;
+    animation: topborder 1s infinite;
+}
+
+@keyframes topborder {
+    0%{
+        left: -100%;
+    }
+    50%,
+    100%{
+        left: 100%;
+    }
+}
+
+.box span:nth-child(2){
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent,aqua);
+    right: 0;
+    animation: rightborder 1s .25s infinite;
+}
+
+@keyframes rightborder {
+    0%{
+        top: -100%;
+    }
+    50%,
+    100%{
+        top: 100%;
+    }
+}
+
+.box span:nth-child(3){
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, transparent,aqua);
+    bottom: 0;
+    animation: bottomborder 1s .5s infinite;
+}
+
+@keyframes bottomborder {
+    0%{
+        right: -100%;
+    }
+    50%,
+    100%{
+        right: 100%;
+    }
+}
+
+.box span:nth-child(4){
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, transparent,aqua);
+    left: 0;
+    animation: leftborder 1s .75s infinite;
+}
+
+@keyframes leftborder {
+    0%{
+        bottom: -100%;
+    }
+    50%,
+    100%{
+        bottom: 100%;
+    }
+}
+
+/* 3 :- music hover  */
+/* .music-signal {
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90deg);
+}
+
+.music-signal .item-circle{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px 4px 0 0;
+    border-radius: 0 100% 0 0;
+    opacity: 0;
+    animation: signalanimation 2s infinite;
+}
+
+.music-signal .item-circle.circle-1{
+    animation-delay: 800ms;
+}
+
+.music-signal .item-circle.circle-2{
+    width: 80px;
+    height: 80px;
+    animation-delay: 600ms;
+}
+.music-signal .item-circle.circle-3{
+    width: 60px;
+    height: 60px;
+    animation-delay: 400ms;
+}
+.music-signal .item-circle.circle-4{
+    width: 40px;
+    height: 40px;
+    animation-delay: 200ms
+}
+.music-signal .item-circle.circle-5{
+    width: 20px;
+    height: 20px;
+    animation-delay: 0ms;
+}
+
+@keyframes signalanimation {
+    0% { 
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0; 
+    }
+} */
+
+
